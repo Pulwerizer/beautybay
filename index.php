@@ -9,6 +9,7 @@
 
 </head>
 <body>
+
 <form method="post">
    <input type="text" name="imie" placeholder=Imie>
    <input type="text" name="nazwisko" placeholder="nazwisko">
@@ -21,7 +22,7 @@
    <input type=submit name="Logoj" value="Logoj">
     </form>
 <?php
-
+echo "ble ble"
 $user= "root";
 $password="usbw";
 $host = "mysql:host=localhost;port=3306;dbname=profile";
@@ -112,6 +113,11 @@ if(isset($_POST["imie"]) && isset($_POST["nazwisko"]) && isset($_POST["haslo"]) 
     if(preg_match($eznaczki,$email)){echo "mail :Jest git"."<br>";}else{echo"Mail :nie jest git"."<br>";} ;
     
     ?>
+    <form>
+    <input type="checkbox">
+    </form>
+    </body>
+    </html>
 
 
 </body>
