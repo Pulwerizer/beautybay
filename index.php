@@ -9,7 +9,7 @@
 
 </head>
 <body>
-
+<div>Al kaida is bad</div>
 <form method="post">
    <input type="text" name="imie" placeholder=Imie>
    <input type="text" name="nazwisko" placeholder="nazwisko">
@@ -23,6 +23,7 @@
     </form>
 <?php
 echo "ble ble"
+
 $user= "root";
 $password="usbw";
 $host = "mysql:host=localhost;port=3306;dbname=profile";
